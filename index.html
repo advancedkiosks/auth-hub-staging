@@ -17,7 +17,7 @@
     var origins = [ /.*/i ];
 
     CrossStorageHub.init(origins.map(function(o) {
-      return { origin: o, allow: ['get', 'set', 'del'] };
+      return { origin: o, allow: ['get', 'set', 'del', 'clear'] };
     }));
   </script>
 </body>
